@@ -1,3 +1,3 @@
-Title: Error
+Title: Oops, Not Found!
 ----
-Text: The page has not been found
+Description: Error 404 - Not Found.

@@ -1,14 +1,15 @@
 <?php snippet('header') ?>
-<?php snippet('menu') ?>
-<?php snippet('submenu') ?>
 
-<section class="content">
+<?php snippet('navigation') ?>
 
-  <article>
-    <h1><?php echo html($page->title()) ?></h1>
-    <?php echo kirbytext($page->text()) ?>
-  </article>
+<!--About-->
+<div class="grid">	
+	<div class="row">		
+		<div class="slot-6-7-8-9">			
+			<?php echo kirbytext($page->text()) ?>				
+		</div>
+	</div>	
+</div>
 
-</section>
 
 <?php snippet('footer') ?>
