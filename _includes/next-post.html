@@ -1,0 +1,22 @@
+{% for post in site.posts %}
+        {% if post.url == page.url %}
+            {% assign post_index0 = forloop.index0 %}
+            {% assign post_index1 = forloop.index %}
+        {% endif %}
+          {% endfor %}
+          {% for post in site.posts %}
+              {% if post_index1 == forloop.index0 %}
+                  {% assign prev_post = post.url %}
+                  {% assign prev_title = post.title %}
+                  {% assign prev_description = post.description %}
+              {% endif %}
+          {% endfor %}
+          {% if prev_post %}
+          <div class="continue">
+            <div class="center sans">
+                <h5 class="sans mid-grey">Continue reading...</h5>
+              </div>
+              <a href="{{ prev_post }}"><h4 class="italic">{{ prev_title }}</h4></a>
+              <p>{{ prev_description }}</p>
+          </div>
+          {% endif %}

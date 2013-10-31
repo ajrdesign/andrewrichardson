@@ -26,7 +26,9 @@ a, a:visited, a:active {
 
 a:hover {
     color: $accent;
+    text-decoration: underline;
     @include transit(all,.25s, ease-in-out)
+
 }
 
 em {
@@ -56,6 +58,17 @@ blockquote, blockquote p {
     text-align: center;
     color: lighten($black, .2);
     margin-bottom: $lh;
+}
+
+/*     Colors           */
+.light-grey {
+    color: $grey-light;
+}
+.mid-grey {
+    color: $grey-medium;
+}
+.dark-grey {
+    color: $grey-dark;
 }
 
 
@@ -161,10 +174,12 @@ input {
 
 .post {
     @include column(8);
-    max-width: 680px;
+    max-width: 680px + $lh*4;
+    padding: 0 $lh*2;
     display: block;
     margin: 0 auto;
     float: none;
+    z-index: 100;
 }
 
 
@@ -281,7 +296,7 @@ header.site-header nav {
         width: 100%;
         max-height: 800px;
         position: absolute;
-        z-index: 2;
+        z-index: -1;
         background: rgba(0,0,0,.55);
     }
     .overlay-lighter {
@@ -302,7 +317,7 @@ header.site-header nav {
         -o-background-size: cover;
         position: relative;
         top: 0;
-        z-index: -1;
+        z-index: -2;
         img {
             max-height: 800px;
         }
@@ -310,7 +325,7 @@ header.site-header nav {
     
     // Header Stuff
     header {
-        margin: (2*$lh) 0 $lh 0;
+        margin: ($lh) 0 $lh 0;
         hgroup {
             color: $black;
             position: relative;
@@ -374,35 +389,9 @@ header.site-header nav {
             a {
                 position: relative;
                 &:hover {
-                    @include transit;
+                    text-decoration: underline;
+                    @include transit(all,0.25s,ease-in-out);
                 }
-            }
-            
-            a:hover:before {
-                content:'...';
-                color: $grey-light;
-                font-family: $sans;
-                position: absolute;
-                margin-left: -70px;
-                font-size: 40px;
-                left: 0;
-                top: -20px;
-                text-align: center;
-                @include transit;
-            }
-            
-            a:before {
-                content:'“';
-                color: $grey-light;
-                position: absolute;
-                margin-left: -70px;
-                font-size: 60px;
-                z-index: 10;
-                top: -6px;
-                left: 0;
-                text-align: center;
-                @include transit;
-
             }
             
             h1 {
@@ -439,6 +428,8 @@ header.site-header nav {
 .post {
     
     min-height: 500px;
+    background-color: $white;
+    margin-top: -200px;
     
     .deets {
         position: relative;
@@ -548,7 +539,9 @@ header.site-header nav {
         }
     }
 }
-
+.continue {
+    margin-top: $lh*4;
+}
 /* Footer Stuff */
 .push {
     height: $footerHeight/4 !important;
@@ -556,10 +549,10 @@ header.site-header nav {
 
 footer {
     width: 100%;
-    background: $black;
+    background: $grey-light;
     height: $footerHeight;
     font-size: $fsp;
-    color: $white;
+    color: $grey-dark;
     position: relative;
         
     // Contain that ish
@@ -605,11 +598,6 @@ footer {
             .recent-title {
                 @include column(8,12);
                 font-style: italic;
-                a {
-                    &:hover {
-                        color: $white;
-                    }
-                }
             }
             span.date {
                 float: none;
@@ -630,11 +618,6 @@ footer {
         @include column(2,12);
         right: 5vw;
         font-style: italic;
-        a {
-            &:hover {
-                color: $white;
-            }
-        }
         ul {
             li {
                 margin-bottom: $lh/2;
@@ -644,6 +627,10 @@ footer {
             }
         }
     }
+}
+.sans {
+  font-family: $sans;
+  font-weight: 700;
 }
 
 .disqus {
@@ -665,6 +652,7 @@ h1 {
 blockquote, blockquote p {
     font-size: $fs3;
 }
+
 
 footer {
     font-size: $fs5;
@@ -704,6 +692,10 @@ footer {
         width: 90%;
         margin: 0 auto;
     }
+     .post {
+    padding: 0;
+    }
+
     
     .prev-posts {
         @include column(9);
@@ -722,7 +714,8 @@ footer {
 @media only screen and (max-width : 680px) {
  
  /* All Posts */
-      
+
+    
   section.article img.loading {
     top: 10px !important;
     right: 6%;
@@ -808,6 +801,9 @@ footer {
         text-shadow: none;
     }
   }
+  .continue {
+    margin-top: $lh;
+    }
   
   #bump .darken nav ul {
           padding: 0;
