@@ -6,4 +6,4 @@ image:
   feature: typewriter.jpg
 ---
 
-This is some content
+Creating a better web for better people.
