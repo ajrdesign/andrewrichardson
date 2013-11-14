@@ -3,51 +3,72 @@
 <title type="text">Andrew Richardson</title>
 <subtitle type="text">Musings on web design and development.</subtitle>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="/feed.xml" />
-<link rel="alternate" type="text/html" href="" />
-<updated>2013-11-14T03:22:57+00:00</updated>
-<id>/</id>
+<link rel="self" type="application/atom+xml" href="http://andrew-richardson.me/feed.xml" />
+<link rel="alternate" type="text/html" href="http://andrew-richardson.me" />
+<updated>2013-11-14T17:34:45+00:00</updated>
+<id>http://andrew-richardson.me/</id>
 <author>
   <name>Andrew Richardson</name>
-  <uri>/</uri>
+  <uri>http://andrew-richardson.me/</uri>
   <email>ajrgraphicdesign@gmail.com</email>
 </author>
 
 
 <entry>
+  <title type="html"><![CDATA[But really... Should I use a carousel?]]></title>
+  <link rel="alternate" type="text/html" href="http://andrew-richardson.me/articles/carousel" />
+  <id>http://andrew-richardson.me/articles/carousel</id>
+  <published>2013-11-14T17:32:53+00:00</published>
+  <updated>2013-11-14T17:32:53+00:00</updated>
+  <author>
+    <name>Andrew Richardson</name>
+    <uri>http://andrew-richardson.me</uri>
+    <email>ajrgraphicdesign@gmail.com</email>
+  </author>
+  <content type="html">&lt;p&gt;The once impressive carousel has taken &lt;a href=&quot;http://www.creativebloq.com/accessibility-expert-warns-stop-using-carousels-7133778&quot;&gt;quite&lt;/a&gt; a beating from the UX comity lately. This has come at little surprise to myself as the degree they have spread to homepage designs is astounding. As visibility of the carousel grows the demand from our clients to have one on the homepage also grows. How can we balance this desire from our clients (you know the ones that pay the bills) while satisfying the people who use our websites with a good experience?&lt;/p&gt;
+
+&lt;p&gt;There’s been a lot of talk about this around the web and the consensus seems to be that using carousels is bad… &lt;strong&gt;ever&lt;/strong&gt;. I’ll admit this was my first impression after reading some of these articles but after I let it sink in I realized that that kind of dogmatic thinking is exactly what got us to use carousels in the first place. Carousels were a knee jerk reaction to the “place all the important content above the fold” ideal, which has been fading recently. In order to keep all the “important” content above the fold we just hid it away behind multiple slides that they can simply click through. Huzzah! We’ve made the shareholders happy!&lt;/p&gt;
+
+&lt;p&gt;But then we had more issues: People weren’t understanding that they could click through the content. The small dots below or arrows didn’t make clear what the UI elements did or that there was actually more content to be found. So what did we do? Make it auto-forward! Then we sat back, fat and content with the job we’ve done, until &lt;a href=&quot;http://www.nngroup.com/articles/auto-forwarding/&quot;&gt;usability tests revealed that we’ve done a poor job of appeasing the real people who use our webpages&lt;/a&gt;.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://andrew-richardson.me/articles/carousel&quot;&gt;But really... Should I use a carousel?&lt;/a&gt; was originally published by Andrew Richardson at &lt;a href=&quot;http://andrew-richardson.me&quot;&gt;Andrew Richardson&lt;/a&gt; on November 14, 2013.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
   <title type="html"><![CDATA[Test Post]]></title>
-  <link rel="alternate" type="text/html" href="/articles/test-post" />
-  <id>/articles/test-post</id>
+  <link rel="alternate" type="text/html" href="http://andrew-richardson.me/articles/test-post" />
+  <id>http://andrew-richardson.me/articles/test-post</id>
   <published>2013-08-17T00:00:00+00:00</published>
   <updated>2013-08-17T00:00:00+00:00</updated>
   <author>
     <name>Andrew Richardson</name>
-    <uri></uri>
+    <uri>http://andrew-richardson.me</uri>
     <email>ajrgraphicdesign@gmail.com</email>
   </author>
-  <content type="html">&lt;p&gt;Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney&amp;#8217;s. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.&lt;/p&gt;
+  <content type="html">&lt;p&gt;Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney’s. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.&lt;/p&gt;
 
 &lt;p&gt;Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.&lt;/p&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;/articles/test-post&quot;&gt;Test Post&lt;/a&gt; was originally published by Andrew Richardson at &lt;a href=&quot;&quot;&gt;Andrew Richardson&lt;/a&gt; on August 17, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://andrew-richardson.me/articles/test-post&quot;&gt;Test Post&lt;/a&gt; was originally published by Andrew Richardson at &lt;a href=&quot;http://andrew-richardson.me&quot;&gt;Andrew Richardson&lt;/a&gt; on August 17, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Image in Post]]></title>
-  <link rel="alternate" type="text/html" href="/articles/the-little-prince" />
-  <id>/articles/the-little-prince</id>
+  <link rel="alternate" type="text/html" href="http://andrew-richardson.me/articles/the-little-prince" />
+  <id>http://andrew-richardson.me/articles/the-little-prince</id>
   <published>2013-08-05T00:00:00+00:00</published>
   <updated>2013-08-05T00:00:00+00:00</updated>
   <author>
     <name>Andrew Richardson</name>
-    <uri></uri>
+    <uri>http://andrew-richardson.me</uri>
     <email>ajrgraphicdesign@gmail.com</email>
   </author>
   <content type="html">&lt;p&gt;It was a picture of a boa constrictor in the act of swallowing an animal. Here is a copy of the drawing:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/money.jpg&quot; alt=&quot;Drawing A&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andrew-richardson.me/images/money.jpg&quot; alt=&quot;Drawing A&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;In the book it said: “Boa constrictors swallow their prey whole, without
 chewing it. After that they are not able to move, and they sleep through the
@@ -57,7 +78,7 @@ six months that they need for digestion.”&lt;/p&gt;
 work with a colored pencil I succeeded in making my ﬁrst drawing. 
 My Drawing Number One. It looked like this:&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/sticker-mule.jpg&quot; alt=&quot;Drawing Number One&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://andrew-richardson.me/images/sticker-mule.jpg&quot; alt=&quot;Drawing Number One&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I showed my masterpiece to the grown-ups, and asked them whether the
 drawing frightened them.&lt;/p&gt;
@@ -70,19 +91,19 @@ digesting an elephant. But since the grown-ups were not able to understand it,
 I made another drawing: I drew the inside of the boa constrictor, so that the
 grown-ups could see it clearly. They always need to have things explained.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;/articles/the-little-prince&quot;&gt;Image in Post&lt;/a&gt; was originally published by Andrew Richardson at &lt;a href=&quot;&quot;&gt;Andrew Richardson&lt;/a&gt; on August 05, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://andrew-richardson.me/articles/the-little-prince&quot;&gt;Image in Post&lt;/a&gt; was originally published by Andrew Richardson at &lt;a href=&quot;http://andrew-richardson.me&quot;&gt;Andrew Richardson&lt;/a&gt; on August 05, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Post with Figure]]></title>
-  <link rel="alternate" type="text/html" href="/articles/post-with-figure" />
-  <id>/articles/post-with-figure</id>
+  <link rel="alternate" type="text/html" href="http://andrew-richardson.me/articles/post-with-figure" />
+  <id>http://andrew-richardson.me/articles/post-with-figure</id>
   <published>2013-08-05T00:00:00+00:00</published>
   <updated>2013-08-05T00:00:00+00:00</updated>
   <author>
     <name>Andrew Richardson</name>
-    <uri></uri>
+    <uri>http://andrew-richardson.me</uri>
     <email>ajrgraphicdesign@gmail.com</email>
   </author>
   <content type="html">&lt;p&gt;This is a post that uses a &lt;code&gt;figure&lt;/code&gt;. It stacks these images and places a nice little caption below if you fill out &lt;code&gt;figcaption&lt;/code&gt;.&lt;/p&gt;
@@ -100,19 +121,19 @@ grown-ups could see it clearly. They always need to have things explained.&lt;/p
 &lt;span class=&quot;lineno&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;/figure&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-  &lt;p&gt;&lt;a href=&quot;/articles/post-with-figure&quot;&gt;Post with Figure&lt;/a&gt; was originally published by Andrew Richardson at &lt;a href=&quot;&quot;&gt;Andrew Richardson&lt;/a&gt; on August 05, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://andrew-richardson.me/articles/post-with-figure&quot;&gt;Post with Figure&lt;/a&gt; was originally published by Andrew Richardson at &lt;a href=&quot;http://andrew-richardson.me&quot;&gt;Andrew Richardson&lt;/a&gt; on August 05, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Post and Feature Image]]></title>
-  <link rel="alternate" type="text/html" href="/articles/post-with-feature" />
-  <id>/articles/post-with-feature</id>
+  <link rel="alternate" type="text/html" href="http://andrew-richardson.me/articles/post-with-feature" />
+  <id>http://andrew-richardson.me/articles/post-with-feature</id>
   <published>2013-08-05T00:00:00+00:00</published>
   <updated>2013-08-05T00:00:00+00:00</updated>
   <author>
     <name>Andrew Richardson</name>
-    <uri></uri>
+    <uri>http://andrew-richardson.me</uri>
     <email>ajrgraphicdesign@gmail.com</email>
   </author>
   <content type="html">&lt;p&gt;“Whenever you feel like criticizing any one,” he told me, “just remember that all the people in this world haven’t had the advantages that you’ve had.”&lt;/p&gt;
@@ -138,28 +159,28 @@ And so with the sunshine and the great bursts of leaves growing on the trees, ju
 &lt;p&gt;It was a matter of chance that I should have rented a house in one of the strangest communities in North America. It was on that slender riotous island which extends itself due east of New York — and where there are, among other natural curiosities, two unusual formations of land. Twenty miles from the city a pair of enormous eggs, identical in contour and separated only by a courtesy bay, jut out into the most domesticated body of salt water in the Western hemisphere, the great wet barnyard of Long Island Sound. They are not perfect ovals — like the egg in the Columbus story, they are both crushed flat at the contact end — but their physical resemblance must be a source of perpetual confusion to the gulls that fly overhead. To the wingless a more arresting phenomenon is their dissimilarity in every particular except shape and size.
 I lived at West Egg, the — well, the less fashionable of the two, though this is a most superficial tag to express the bizarre and not a little sinister contrast between them. My house was at the very tip of the egg, only fifty yards from the Sound, and squeezed between two huge places that rented for twelve or fifteen thousand a season. The one on my right was a colossal affair by any standard — it was a factual imitation of some Hotel de Ville in Normandy, with a tower on one side, spanking new under a thin beard of raw ivy, and a marble swimming pool, and more than forty acres of lawn and garden. It was Gatsby’s mansion. Or, rather, as I didn’t know Mr. Gatsby, it was a mansion inhabited by a gentleman of that name. My own house was an eyesore, but it was a small eyesore, and it had been overlooked, so I had a view of the water, a partial view of my neighbor’s lawn, and the consoling proximity of millionaires — all for eighty dollars a month.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;/articles/post-with-feature&quot;&gt;Post and Feature Image&lt;/a&gt; was originally published by Andrew Richardson at &lt;a href=&quot;&quot;&gt;Andrew Richardson&lt;/a&gt; on August 05, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://andrew-richardson.me/articles/post-with-feature&quot;&gt;Post and Feature Image&lt;/a&gt; was originally published by Andrew Richardson at &lt;a href=&quot;http://andrew-richardson.me&quot;&gt;Andrew Richardson&lt;/a&gt; on August 05, 2013.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[A Longform Post to Cogitate]]></title>
-  <link rel="alternate" type="text/html" href="/articles/longform-post" />
-  <id>/articles/longform-post</id>
+  <link rel="alternate" type="text/html" href="http://andrew-richardson.me/articles/longform-post" />
+  <id>http://andrew-richardson.me/articles/longform-post</id>
   <published>2013-08-05T00:00:00+00:00</published>
   <updated>2013-08-05T00:00:00+00:00</updated>
   <author>
     <name>Andrew Richardson</name>
-    <uri></uri>
+    <uri>http://andrew-richardson.me</uri>
     <email>ajrgraphicdesign@gmail.com</email>
   </author>
-  <content type="html">&lt;p&gt;Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney&amp;#8217;s. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.&lt;/p&gt;
+  <content type="html">&lt;p&gt;Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney’s. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.&lt;/p&gt;
 
 &lt;p&gt;Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.&lt;/p&gt;
 
-&lt;h2 id=&quot;cupidatat-90s-lo-fi-authentic-try-hard&quot;&gt;Cupidatat 90&amp;#8217;s lo-fi authentic try-hard&lt;/h2&gt;
+&lt;h2 id=&quot;cupidatat-90s-lo-fi-authentic-try-hard&quot;&gt;Cupidatat 90’s lo-fi authentic try-hard&lt;/h2&gt;
 
-&lt;p&gt;In pug Portland incididunt mlkshk put a bird on it vinyl quinoa. Terry Richardson shabby chic +1, scenester Tonx excepteur tempor fugiat voluptate fingerstache aliquip nisi next level. Farm-to-table hashtag Truffaut, Odd Future ex meggings gentrify single-origin coffee try-hard 90&amp;#8217;s. &lt;/p&gt;
+&lt;p&gt;In pug Portland incididunt mlkshk put a bird on it vinyl quinoa. Terry Richardson shabby chic +1, scenester Tonx excepteur tempor fugiat voluptate fingerstache aliquip nisi next level. Farm-to-table hashtag Truffaut, Odd Future ex meggings gentrify single-origin coffee try-hard 90’s. &lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Sartorial hoodie &lt;/li&gt;
@@ -170,31 +191,31 @@ I lived at West Egg, the — well, the less fashionable of the two, though this 
 
 &lt;p&gt;Incididunt umami sriracha, ethical fugiat VHS ex assumenda yr irure direct trade. Marfa Truffaut bicycle rights, kitsch placeat Etsy kogi asymmetrical. Beard locavore flexitarian, kitsch photo booth hoodie plaid ethical readymade leggings yr.&lt;/p&gt;
 
-&lt;p&gt;Aesthetic odio dolore, meggings disrupt qui readymade stumptown brunch Terry Richardson pour-over gluten-free. Banksy american apparel in selfies, biodiesel flexitarian organic meh wolf quinoa gentrify banjo kogi. Readymade tofu ex, scenester dolor umami fingerstache occaecat fashion axe Carles jean shorts minim. Keffiyeh fashion axe nisi Godard mlkshk dolore. Lomo you probably haven&amp;#8217;t heard of them eu non, Odd Future Truffaut pug keytar meggings McSweeney&amp;#8217;s Pinterest cred. Etsy literally aute esse, eu bicycle rights qui meggings fanny pack. Gentrify leggings pug flannel duis.&lt;/p&gt;
+&lt;p&gt;Aesthetic odio dolore, meggings disrupt qui readymade stumptown brunch Terry Richardson pour-over gluten-free. Banksy american apparel in selfies, biodiesel flexitarian organic meh wolf quinoa gentrify banjo kogi. Readymade tofu ex, scenester dolor umami fingerstache occaecat fashion axe Carles jean shorts minim. Keffiyeh fashion axe nisi Godard mlkshk dolore. Lomo you probably haven’t heard of them eu non, Odd Future Truffaut pug keytar meggings McSweeney’s Pinterest cred. Etsy literally aute esse, eu bicycle rights qui meggings fanny pack. Gentrify leggings pug flannel duis.&lt;/p&gt;
 
 &lt;h2 id=&quot;forage-occaecat-cardigan-qui&quot;&gt;Forage occaecat cardigan qui&lt;/h2&gt;
 
-&lt;p&gt;Fashion axe hella gastropub lo-fi kogi 90&amp;#8217;s aliquip +1 veniam delectus tousled. Cred sriracha locavore gastropub kale chips, iPhone mollit sartorial. Anim dolore 8-bit, pork belly dolor photo booth aute flannel small batch. Dolor disrupt ennui, tattooed whatever salvia Banksy sartorial roof party selfies raw denim sint meh pour-over. Ennui eu cardigan sint, gentrify iPhone cornhole. &lt;/p&gt;
+&lt;p&gt;Fashion axe hella gastropub lo-fi kogi 90’s aliquip +1 veniam delectus tousled. Cred sriracha locavore gastropub kale chips, iPhone mollit sartorial. Anim dolore 8-bit, pork belly dolor photo booth aute flannel small batch. Dolor disrupt ennui, tattooed whatever salvia Banksy sartorial roof party selfies raw denim sint meh pour-over. Ennui eu cardigan sint, gentrify iPhone cornhole. &lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Whatever velit occaecat quis deserunt gastropub, leggings elit tousled roof party 3 wolf moon kogi pug blue bottle ea. Fashion axe shabby chic Austin quinoa pickled laborum bitters next level, disrupt deep v accusamus non fingerstache.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Tote bag asymmetrical elit sunt. Occaecat authentic Marfa, hella McSweeney&amp;#8217;s next level irure veniam master cleanse. Sed hoodie letterpress artisan wolf leggings, 3 wolf moon commodo ullamco. Anim occupy ea labore Terry Richardson. Tofu ex master cleanse in whatever pitchfork banh mi, occupy fugiat fanny pack Austin authentic. Magna fugiat 3 wolf moon, labore McSweeney&amp;#8217;s sustainable vero consectetur. Gluten-free disrupt enim, aesthetic fugiat jean shorts trust fund keffiyeh magna try-hard.&lt;/p&gt;
+&lt;p&gt;Tote bag asymmetrical elit sunt. Occaecat authentic Marfa, hella McSweeney’s next level irure veniam master cleanse. Sed hoodie letterpress artisan wolf leggings, 3 wolf moon commodo ullamco. Anim occupy ea labore Terry Richardson. Tofu ex master cleanse in whatever pitchfork banh mi, occupy fugiat fanny pack Austin authentic. Magna fugiat 3 wolf moon, labore McSweeney’s sustainable vero consectetur. Gluten-free disrupt enim, aesthetic fugiat jean shorts trust fund keffiyeh magna try-hard.&lt;/p&gt;
 
 &lt;h2 id=&quot;hoodie-duis&quot;&gt;Hoodie Duis&lt;/h2&gt;
 
-&lt;p&gt;Actually salvia consectetur, hoodie duis lomo YOLO sunt sriracha. Aute pop-up brunch farm-to-table odio, salvia irure occaecat. Sriracha small batch literally skateboard. Echo Park nihil hoodie, aliquip forage artisan laboris. Trust fund reprehenderit nulla locavore. Stumptown raw denim kitsch, keffiyeh nulla twee dreamcatcher fanny pack ullamco 90&amp;#8217;s pop-up est culpa farm-to-table. Selfies 8-bit do pug odio.&lt;/p&gt;
+&lt;p&gt;Actually salvia consectetur, hoodie duis lomo YOLO sunt sriracha. Aute pop-up brunch farm-to-table odio, salvia irure occaecat. Sriracha small batch literally skateboard. Echo Park nihil hoodie, aliquip forage artisan laboris. Trust fund reprehenderit nulla locavore. Stumptown raw denim kitsch, keffiyeh nulla twee dreamcatcher fanny pack ullamco 90’s pop-up est culpa farm-to-table. Selfies 8-bit do pug odio.&lt;/p&gt;
 
 &lt;h3 id=&quot;thundercats-ho&quot;&gt;Thundercats Ho!&lt;/h3&gt;
 
-&lt;p&gt;Fingerstache thundercats Williamsburg, deep v scenester Banksy ennui vinyl selfies mollit biodiesel duis odio pop-up. Banksy 3 wolf moon try-hard, sapiente enim stumptown deep v ad letterpress. Squid beard brunch, exercitation raw denim yr sint direct trade. Raw denim narwhal id, flannel DIY McSweeney&amp;#8217;s seitan. Letterpress artisan bespoke accusamus, meggings laboris consequat Truffaut qui in seitan. Sustainable cornhole Schlitz, twee Cosby sweater banh mi deep v forage letterpress flannel whatever keffiyeh. Sartorial cred irure, semiotics ethical sed blue bottle nihil letterpress.&lt;/p&gt;
+&lt;p&gt;Fingerstache thundercats Williamsburg, deep v scenester Banksy ennui vinyl selfies mollit biodiesel duis odio pop-up. Banksy 3 wolf moon try-hard, sapiente enim stumptown deep v ad letterpress. Squid beard brunch, exercitation raw denim yr sint direct trade. Raw denim narwhal id, flannel DIY McSweeney’s seitan. Letterpress artisan bespoke accusamus, meggings laboris consequat Truffaut qui in seitan. Sustainable cornhole Schlitz, twee Cosby sweater banh mi deep v forage letterpress flannel whatever keffiyeh. Sartorial cred irure, semiotics ethical sed blue bottle nihil letterpress.&lt;/p&gt;
 
-&lt;p&gt;Occupy et selvage squid, pug brunch blog nesciunt hashtag mumblecore skateboard yr kogi. Ugh small batch swag four loko. Fap post-ironic qui tote bag farm-to-table american apparel scenester keffiyeh vero, swag non pour-over gentrify authentic pitchfork. Schlitz scenester lo-fi voluptate, tote bag irony bicycle rights pariatur vero Vice freegan wayfarers exercitation nisi shoreditch. Chambray tofu vero sed. Street art swag literally leggings, Cosby sweater mixtape PBR lomo Banksy non in pitchfork ennui McSweeney&amp;#8217;s selfies. Odd Future Banksy non authentic.&lt;/p&gt;
+&lt;p&gt;Occupy et selvage squid, pug brunch blog nesciunt hashtag mumblecore skateboard yr kogi. Ugh small batch swag four loko. Fap post-ironic qui tote bag farm-to-table american apparel scenester keffiyeh vero, swag non pour-over gentrify authentic pitchfork. Schlitz scenester lo-fi voluptate, tote bag irony bicycle rights pariatur vero Vice freegan wayfarers exercitation nisi shoreditch. Chambray tofu vero sed. Street art swag literally leggings, Cosby sweater mixtape PBR lomo Banksy non in pitchfork ennui McSweeney’s selfies. Odd Future Banksy non authentic.&lt;/p&gt;
 
 &lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;/articles/longform-post&quot;&gt;A Longform Post to Cogitate&lt;/a&gt; was originally published by Andrew Richardson at &lt;a href=&quot;&quot;&gt;Andrew Richardson&lt;/a&gt; on August 05, 2013.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://andrew-richardson.me/articles/longform-post&quot;&gt;A Longform Post to Cogitate&lt;/a&gt; was originally published by Andrew Richardson at &lt;a href=&quot;http://andrew-richardson.me&quot;&gt;Andrew Richardson&lt;/a&gt; on August 05, 2013.&lt;/p&gt;</content>
 </entry>
 
 </feed>
