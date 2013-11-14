@@ -336,7 +336,7 @@ header.site-header nav {
                 font-family: $sans;
                 font-size: $fs5;
                 font-weight: bold;
-                color: $grey-light;
+                color: $grey-medium;
                 text-transform: uppercase;
                 margin-top: $lh * 2/3;
             }
@@ -416,7 +416,7 @@ header.site-header nav {
             font-weight: bold;
             font-family: $sans;
             font-style: normal;
-            color: $grey-light;
+            color: $grey-medium;
             text-transform: uppercase;
             vertical-align: middle;
         }
@@ -640,7 +640,7 @@ footer {
 
 /* Tablet
    ========================================================================== */
-
+//800
 @media only screen and (max-width: $breakpoint-2-max-width) {
     
 // Type Fixes
@@ -714,6 +714,9 @@ footer {
 @media only screen and (max-width : 680px) {
  
  /* All Posts */
+  .post {
+    padding: 0 $lh;
+  }
 
     
   section.article img.loading {
@@ -825,7 +828,7 @@ footer {
 
 }
 
-
+//480
 @media only screen and (max-width: $breakpoint-1-max-width) {
 
 .post {
@@ -834,6 +837,7 @@ footer {
     display: block;
     margin: 0 auto;
     float: none;
+    padding: 0;
 }
 
 footer {

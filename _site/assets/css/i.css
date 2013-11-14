@@ -214,7 +214,7 @@ p {
   margin-bottom: 33px; }
 
 a, a:visited, a:active {
-  color: #9b1c34;
+  color: #a62436;
   -moz-transition: all 0.25s ease-in-out;
   -o-transition: all 0.25s ease-in-out;
   -webkit-transition: all 0.25s ease-in-out;
@@ -222,7 +222,7 @@ a, a:visited, a:active {
   transition: all 0.25s ease-in-out; }
 
 a:hover {
-  color: #d92b4c;
+  color: #d64155;
   text-decoration: underline;
   -moz-transition: all 0.25s ease-in-out;
   -o-transition: all 0.25s ease-in-out;
@@ -268,7 +268,7 @@ blockquote, blockquote p {
 
 /*   Code Formatting    */
 code {
-  color: #d92b4c;
+  color: #d64155;
   font-family: "Monaco", "Courier New", "Courier";
   font-size: .75em;
   font-weight: bold; }
@@ -325,7 +325,7 @@ input {
   line-height: 20px; }
 
 .bb {
-  border-bottom: 2px solid #9b1c34; }
+  border-bottom: 2px solid #a62436; }
 
 .pad-top {
   padding-top: 66px; }
@@ -382,7 +382,7 @@ header.site-header {
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out; }
   #bump .darken a:hover {
-    color: #9b1c34;
+    color: #a62436;
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
@@ -393,10 +393,10 @@ header.site-header {
 #bump .darken nav ul li a {
   color: #3b3b3b; }
   #bump .darken nav ul li a:active {
-    color: #9b1c34; }
+    color: #a62436; }
   #bump .darken nav ul li a:hover {
     text-shadow: none;
-    color: #9b1c34; }
+    color: #a62436; }
 
 header.site-header a.menu {
   display: none; }
@@ -411,7 +411,7 @@ header.site-header hgroup {
     font-weight: 700;
     font-size: 18px;
     line-height: 100%;
-    color: #d92b4c;
+    color: #d64155;
     letter-spacing: 2px;
     text-transform: uppercase; }
   header.site-header hgroup a {
@@ -507,7 +507,7 @@ header.site-header nav {
         font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
         font-size: 16px;
         font-weight: bold;
-        color: #d9d9d9;
+        color: #999999;
         text-transform: uppercase;
         margin-top: 22px; }
     .article header .intro {
@@ -575,7 +575,7 @@ header.site-header nav {
       font-weight: bold;
       font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
       font-style: normal;
-      color: #d9d9d9;
+      color: #999999;
       text-transform: uppercase;
       vertical-align: middle; }
 
@@ -663,8 +663,8 @@ header.site-header nav {
     -webkit-border-radius: 4px;
     border-radius: 4px; }
     .post .share:hover {
-      color: #9b1c34;
-      border-color: rgba(155, 28, 52, 0.7);
+      color: #a62436;
+      border-color: rgba(166, 36, 54, 0.7);
       -moz-transition: all 0.2s ease;
       -o-transition: all 0.2s ease;
       -webkit-transition: all 0.2s ease;
@@ -716,7 +716,7 @@ footer {
       color: rgba(249, 249, 249, 0.3); }
   footer .list-title {
     margin-bottom: 16.5px;
-    border-bottom: 2px solid #9b1c34;
+    border-bottom: 2px solid #a62436;
     font-style: italic;
     font-size: 24px; }
   footer .prev-posts {
@@ -818,6 +818,9 @@ footer {
       margin-top: 16.5px; } }
 @media only screen and (max-width: 680px) {
   /* All Posts */
+  .post {
+    padding: 0 33px; }
+
   section.article img.loading {
     top: 10px !important;
     right: 6%;
@@ -884,7 +887,7 @@ footer {
     width: 100%;
     color: #f9f9f9; }
     header.site-header nav ul li a:active {
-      background-color: #9b1c34;
+      background-color: #a62436;
       color: white; }
     header.site-header nav ul li a:hover {
       text-shadow: none; }
@@ -900,11 +903,11 @@ footer {
   #bump .darken nav ul li a {
     color: #f9f9f9; }
     #bump .darken nav ul li a:active {
-      background-color: #9b1c34; }
+      background-color: #a62436; }
     #bump .darken nav ul li a:hover {
       text-shadow: none;
       color: #f9f9f9;
-      background-color: #9b1c34; } }
+      background-color: #a62436; } }
 @media only screen and (max-width: 480px) {
   .post {
     display: inline;
@@ -914,7 +917,8 @@ footer {
     max-width: 420px;
     display: block;
     margin: 0 auto;
-    float: none; }
+    float: none;
+    padding: 0; }
 
   footer {
     font-size: 16px; }
