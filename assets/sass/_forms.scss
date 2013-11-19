@@ -1,0 +1,24 @@
+/************ Forms Styles *************/
+
+.email-signup input[type="email"] {
+	font-size: 18px;
+	background: lighten($grey-light, 10%);
+	padding: 8px 0 8px 8px;
+	border-top: 1px solid lighten($grey-medium, 15%);
+	border-left: 1px solid lighten($grey-medium, 15%);
+	border-right: 1px solid lighten($grey-medium, 15%);
+	border-bottom: 2px solid $link;
+	display: inline-block;
+	width: 47%;
+	margin-right: 2%;
+}
+.email-signup input[type="submit"] {
+	display: inline-block;
+	width: 47%;
+	font-size: 18px;
+	color: $white;
+	background: $link;
+	@include bxshd($x: 0, $y: 3px, $blur: 0, $color: darken($link,30%));
+	padding: 8px 0;
+	@include br(3px);
+}
